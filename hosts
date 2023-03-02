@@ -1,0 +1,11 @@
+[all:vars]
+ansible-user=root
+
+[hana]
+#suse138 ansible_host=192.168.1.138
+suse142 ansible_host=192.168.1.142
+
+[applications]
+#suse140 ansible_host=192.168.1.140
+
+[master]
